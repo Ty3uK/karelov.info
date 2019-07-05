@@ -1,0 +1,9 @@
+doctype html
+head(lang='en')
+  include meta/meta.pug
+  link(rel='stylesheet' href='/index.css')
+
+body(class=(config.theme || ''))
+  include sidebar/sidebar.pug
+  include container/container.pug
+  script(src='/index.js')

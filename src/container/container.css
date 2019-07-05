@@ -1,0 +1,32 @@
+.container {
+  padding: 40px;
+  background: var(--container-background);
+
+  &_title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &_subtitle {
+    margin: 0 0 24px;
+    color: var(--container-subtitle-color);
+  }
+
+  &_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(var(--card-min-width) + var(--card-gap) * 2), 1fr));
+    grid-gap: var(--card-gap);
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    padding: 20px;
+
+    &_cards:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

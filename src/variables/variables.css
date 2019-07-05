@@ -1,0 +1,13 @@
+:root {
+  --text-color: #24292e;
+  --sidebar-background: white;
+  --sidebar-border: 1px solid #e1e4e8;
+  --sidebar-link-color: #0366d6;
+  --sidebar-svg-fill: black;
+  --container-background: #fafbfc;
+  --container-subtitle-color: #586069;
+  --card-min-width: 250px;
+  --card-gap: 16px;
+  --card-padding: 16px;
+  --card-border: 1px solid #eaecef;
+}

@@ -1,0 +1,18 @@
+include ../repo/repo.pug
+include ../topic/topic.pug
+
+.container
+  if repos
+    h2.container_title My Projects
+    p.container_subtitle GitHub repositories that I've built.
+
+    .container_cards
+      each item in repos
+        +repo(item)
+  if config.topics
+    h2.container_title My Interests
+    p.container_subtitle Topics that I want to learn more about.
+
+    .container_cards
+      each item in config.topics
+        +topic(item)

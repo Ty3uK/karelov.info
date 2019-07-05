@@ -1,0 +1,16 @@
+mixin topic(topic)
+  if topic.web_url
+    a.topic(href=topic.web_url)
+      +topicContent(topic)
+  else
+    div.topic
+      +topicContent(topic)
+
+
+mixin topicContent(topic)
+  if topic.image_url
+    img.topic_image(src=topic.image_url)
+  else
+    div.topic_image(data-placeholder) #
+
+  p.topic_title #{topic.name}

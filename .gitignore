@@ -1,0 +1,8 @@
+.DS_Store
+.cache
+.vscode
+node_modules
+dist
+yarn-error.log
+data/token.json
+data/repos.json

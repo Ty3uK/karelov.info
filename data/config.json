@@ -1,0 +1,31 @@
+{
+  "github_user_name": "Ty3uK",
+	"repositories_count": 12,
+	"author_name": "Maksim Karelov",
+	"author_email": "max.karelov@gmail.com",
+	"author_location": "Russia, Rostov-on-Don",
+	"author_location_link": "https://goo.gl/maps/mLVNhaCTszn",
+	"social": {
+		"telegram": "xxxTy3uKxxx",
+		"twitter": "xxxTy3uKxxx",
+		"vk": "xxxTy3uKxxx"
+	},
+	"topics": [
+		{
+			 "name": "TypeScript",
+			 "web_url": "https://github.com/topics/typescript",
+			 "image_url": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+		},
+		{
+			 "name": "Kotlin",
+			 "web_url": "https://github.com/topics/kotlin",
+			 "image_url": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png"
+		},
+		{
+			 "name": "Swift",
+			 "web_url": "https://github.com/topics/swift",
+			 "image_url": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/swift/swift.png"
+		}
+ ],
+ "theme": "dark"
+}
