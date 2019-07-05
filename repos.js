@@ -35,7 +35,7 @@ const sortRepos = (a, b) => {
   const headers = {};
 
   if (token.github_access_token) {
-    headers.Authorization = `token ${config.github_access_token}`;
+    headers.Authorization = `token ${token.github_access_token}`;
   }
 
   const request = axios.create({
