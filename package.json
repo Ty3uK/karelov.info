@@ -68,7 +68,5 @@
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^2.1.0"
   },
-  "devDependencies": {
-    "webp-in-css": "^0.1.0"
-  }
+  "devDependencies": {}
 }

@@ -7159,13 +7159,6 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webp-in-css@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/webp-in-css/-/webp-in-css-0.1.0.tgz#7e923b9ece0852f9f886d827ab06b86548d3619f"
-  integrity sha512-hbOE5qxiR1kXpMpKoMgsE4GAArvdrXteoIwtYaEmOUSkBVCIJ7BHgKci6t5oDMK0v1YA+MzZig0/LPaTPhwu7Q==
-  dependencies:
-    postcss "^7.0.14"
-
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/whatwg-encoding/-/whatwg-encoding-1.0.5.tgz#5abacf777c32166a51d085d6b4f3e7d27113ddb0"
