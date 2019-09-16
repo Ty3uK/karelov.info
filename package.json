@@ -15,7 +15,6 @@
   },
   "postcss": {
     "plugins": {
-      "webp-in-css/plugin": {},
       "postcss-nested": {},
       "autoprefixer": {}
     }
